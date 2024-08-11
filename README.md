@@ -1,8 +1,11 @@
 ## Projeto Rust + C + Dotnet
 
-Projeto simples de estudo para integrar 3 linguagens de programação
+Projeto simples de estudo para integrar Rust, C e C#. 
 
-### Funcionamento
-- Gerador: Envia dados de timestamp
-- Processor: Recebe os dados e grava num banco Redis
-- Leitor: Lê os dados do Redis e apresenta no console
+### Functionamento
+- Generator: Envia dados de timestamp
+- Processor: Recebe os dados e escreve num Redis
+- Reader: Lê do Redis e apresenta via console
+
+### Esquema
+![RustCDotnet](RustCDotnet.png)
